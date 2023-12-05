@@ -1,10 +1,10 @@
-import type { Metadata } from 'next'
+import 'bootstrap/dist/css/bootstrap.min.css'
 import { Inter } from 'next/font/google'
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
-export const metadata: Metadata = {
+export const Metadata = {
   title: 'Sparkys gallery App',
   description: 'Next.js Typescript Bootstrap Gallery App',
 }
