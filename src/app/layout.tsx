@@ -18,11 +18,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <SSRProvider>
-        <Container>
-        {children}
-        </Container>
-        </SSRProvider>
+        <main>
+          <SSRProvider>
+            <Container>
+              {children}
+            </Container>
+          </SSRProvider>
+        </main>
       </body>
     </html>
   )
