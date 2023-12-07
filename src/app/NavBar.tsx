@@ -7,7 +7,7 @@ export default function NavBar() {
     return(
         <Navbar bg='primary' variant="dark" sticky='top' expand='sm' collapseOnSelect >
             <Container>
-                <Navbar.Brand>
+                <Navbar.Brand as={Link}>
                     <Link href='/'>
                         Next.js 13.4 Image Gallery
                     </Link>
