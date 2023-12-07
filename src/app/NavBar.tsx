@@ -7,7 +7,7 @@ export default function NavBar() {
     return(
         <Navbar bg='primary' variant="dark" sticky='top' expand='sm' collapseOnSelect >
             <Container>
-                <Navbar.Brand as={Link}>
+                <Navbar.Brand as={Link} href='/'>
                     <Link href='/'>
                         Next.js 13.4 Image Gallery
                     </Link>
@@ -15,7 +15,7 @@ export default function NavBar() {
                 <Navbar.Toggle aria-controls='main-navbar' />
                 <Navbar.Collapse id='main-navbar' />
                     <Nav>
-                        <Nav.Link href='/hello'>Hello</Nav.Link>
+                        <Nav.Link as={Link} href='/hello'>Hello</Nav.Link>
                     </Nav>
             </Container>
         </Navbar>
