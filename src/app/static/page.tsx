@@ -12,7 +12,7 @@ export default async function Page() {
         <div className="d-flex flex-column align-items-center">
 
             <Image 
-                src={image.urls.raw}
+                src={image.urls.raw} // <-- something is off here....
                 width={width}
                 height={height}
                 alt={image.description}
